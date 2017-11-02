@@ -1,3 +1,6 @@
+example website:
+http://www.jillwurzburg.com/
+
 CSS MODULES ADDED:
 https://medium.com/nulogy/how-to-use-css-modules-with-create-react-app-9e44bec2b5c2
 
