@@ -1,16 +1,23 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import styles from './Mobile.css';
+import {
+  Route,
+  Link
+} from 'react-router-dom';
+
+import {screenSizes} from '../App';
+
+import BurgerMenu from '../Menus/BurgerMenu';
+import AllSections from '../Sections/AllSections';
 
 const Mobile = () => (
-  <div className={styles.App}>
-    <header className={styles.AppHeader}>
-      <img src={logo} className={styles.AppLogo} alt="logo" />
-      <h1 className={styles.AppTitle}>Welcome to React</h1>
-    </header>
-    <p className={styles.AppIntro}>
+  <div>
+    <BurgerMenu/>
+    <p>
       Mobile
     </p>
+    <AllSections
+      screenSize={screenSizes.MOBILE} 
+    />
   </div>
 );
 
