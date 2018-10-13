@@ -1,12 +1,18 @@
-import React, { Component } from 'react';
-import {screenSizes, screenSizeToText} from '../App';
+import React from 'react';
+import PropTypes from 'prop-types';
+import { screenSizeToText } from '../ScreenSizes';
 
-const News  = ({
-  screenSize
+const News = ({
+  screenSize,
 }) => (
   <div>
-    {screenSizeToText[screenSize]} news
+    {screenSizeToText[screenSize]}
+    {' '}
+    news
   </div>
 );
+News.propTypes = {
+  screenSize: PropTypes.number.isRequired,
+};
 
 export default News;

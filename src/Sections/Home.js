@@ -1,12 +1,19 @@
-import React, { Component } from 'react';
-import {screenSizes, screenSizeToText} from '../App';
+import React from 'react';
+import PropTypes from 'prop-types';
 
-const Home  = ({
-  screenSize
+import { screenSizeToText } from '../ScreenSizes';
+
+const Home = ({
+  screenSize,
 }) => (
   <div>
-    {screenSizeToText[screenSize]} home
+    {screenSizeToText[screenSize]}
+    {' '}
+    home
   </div>
 );
+Home.propTypes = {
+  screenSize: PropTypes.number.isRequired,
+};
 
 export default Home;

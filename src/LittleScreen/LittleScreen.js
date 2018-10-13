@@ -1,22 +1,22 @@
-import React, { Component } from 'react';
-import {
-  Route,
-  Link
-} from 'react-router-dom';
-
-import {screenSizes} from '../App';
+import React from 'react';
+import screenSizes from '../ScreenSizes';
 
 import TopMenu from '../Menus/TopMenu';
 import AllSections from '../Sections/AllSections';
 
 const LittleScreen = () => (
   <div>
-    <p>
-      Little Screen
+    <p
+      style={{
+        textAlign: 'center',
+        fontSize: 40,
+      }}
+    >
+      Anthony Gabriele
     </p>
-    <TopMenu/>
+    <TopMenu />
     <AllSections
-      screenSize={screenSizes.LITTLE_SCREEN} 
+      screenSize={screenSizes.LITTLE_SCREEN}
     />
   </div>
 );

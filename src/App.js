@@ -1,11 +1,10 @@
+/* global window:true */
 import React, { Component } from 'react';
 import {
-  BrowserRouter as Router,
-  Route,
-  Link,
-  withRouter
-} from 'react-router-dom'
+  withRouter,
+} from 'react-router-dom';
 
+import screenSizes from './ScreenSizes';
 import BigScreen from './BigScreen/BigScreen';
 import LittleScreen from './LittleScreen/LittleScreen';
 import Mobile from './Mobile/Mobile';
@@ -13,40 +12,25 @@ import Mobile from './Mobile/Mobile';
 const smallestBigScreen = 900;
 const smallestLittleScreen = 500;
 
-export const screenSizes = {
-  BIG_SCREEN: 0,
-  LITTLE_SCREEN: 1,
-  MOBILE: 2
-}
-export const screenSizeToText = {
-  [screenSizes.BIG_SCREEN] : 'big',
-  [screenSizes.LITTLE_SCREEN] : 'little',
-  [screenSizes.MOBILE] : 'mobile'
-};
-
-//CSS Modules support coming v soon
-//https://github.com/facebook/create-react-app/issues/3815
+// CSS Modules support coming v soon
+// https://github.com/facebook/create-react-app/issues/3815
 
 const determineScreenSize = (size) => {
-  if(size > smallestBigScreen){
+  if (size > smallestBigScreen) {
     return screenSizes.BIG_SCREEN;
   }
-  if(size > smallestLittleScreen){
+  if (size > smallestLittleScreen) {
     return screenSizes.LITTLE_SCREEN;
   }
   return screenSizes.MOBILE;
-}
-
-const newLocation = (oldLocation, newBase) => {
-  alert(oldLocation);
-}
+};
 
 class App extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      screenType: determineScreenSize(window.innerWidth)
+      screenType: determineScreenSize(window.innerWidth),
     };
   }
 
@@ -61,23 +45,25 @@ class App extends Component {
   }
 
   handleWindowSizeChange = () => {
-    let newScreenType = determineScreenSize(window.innerWidth);
-    if(newScreenType !== this.state.screenType){
-      this.setState({screenType: newScreenType});
+    const { screenType } = this.state;
+    const newScreenType = determineScreenSize(window.innerWidth);
+    if (newScreenType !== screenType) {
+      this.setState({ screenType: newScreenType });
     }
   };
 
-  render(){
+  render() {
+    const { screenType } = this.state;
     return (
       <div>
         {
-          this.state.screenType === screenSizes.BIG_SCREEN && <BigScreen/>
+          screenType === screenSizes.BIG_SCREEN && <BigScreen />
         }
         {
-          this.state.screenType === screenSizes.LITTLE_SCREEN && <LittleScreen/>
+          screenType === screenSizes.LITTLE_SCREEN && <LittleScreen />
         }
         {
-          this.state.screenType === screenSizes.MOBILE && <Mobile/>
+          screenType === screenSizes.MOBILE && <Mobile />
         }
       </div>
     );

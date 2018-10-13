@@ -1,22 +1,28 @@
-import React, { Component } from 'react';
-import {
-  Route,
-  Link
-} from 'react-router-dom';
+import React from 'react';
+import FlexBox from 'flexbox-react';
 
-import { screenSizes } from '../App';
-
+import screenSizes from '../ScreenSizes';
 import TopMenu from '../Menus/TopMenu';
-import AllSections from '../Sections/AllSections'
+import AllSections from '../Sections/AllSections';
 
 const BigScreen = () => (
-  <div>
-    <p>
-      Big Screen
-    </p>
-    <TopMenu/>
+  <div
+    style={{
+      fontSize: 40,
+      textAlign: 'center',
+    }}
+  >
+    <FlexBox>
+      <div
+        style={{ width: 50 }}
+      />
+      <p>
+        Anthony Gabriele
+      </p>
+      <TopMenu />
+    </FlexBox>
     <AllSections
-      screenSize={screenSizes.BIG_SCREEN} 
+      screenSize={screenSizes.BIG_SCREEN}
     />
   </div>
 );
