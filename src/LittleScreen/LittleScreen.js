@@ -14,7 +14,9 @@ const LittleScreen = () => (
     >
       Anthony Gabriele
     </p>
-    <TopMenu />
+    <TopMenu
+      screenSize={screenSizes.LITTLE_SCREEN}
+    />
     <AllSections
       screenSize={screenSizes.LITTLE_SCREEN}
     />

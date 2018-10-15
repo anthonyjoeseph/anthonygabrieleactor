@@ -19,7 +19,9 @@ const BigScreen = () => (
       <p>
         Anthony Gabriele
       </p>
-      <TopMenu />
+      <TopMenu
+        screenSize={screenSizes.BIG_SCREEN}
+      />
     </FlexBox>
     <AllSections
       screenSize={screenSizes.BIG_SCREEN}

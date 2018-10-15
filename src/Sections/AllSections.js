@@ -8,7 +8,7 @@ import Home from './Home';
 import Contact from './Contact';
 import Gallery from './Gallery';
 import Media from './Media';
-import News from './News';
+import News from './News/News';
 import Resume from './Resume';
 
 const AllSections = ({
