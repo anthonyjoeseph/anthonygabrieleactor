@@ -1,12 +1,10 @@
 <script lang="ts">
-  import Contact from './Contact.svelte';
-    export let links: any;
+    import {links} from '$lib/links'
+    import Contact from './Contact.svelte';
     const contactInfo = {
-    phone: '(631) 743-0728',
-    email: 'anthony@anthonygabrieleactor.com'
-}
-
-
+        phone: '(631) 743-0728',
+        email: 'anthony@anthonygabrieleactor.com'
+    }
 </script>
 
 <container class="main-content">
