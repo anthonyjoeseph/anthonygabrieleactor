@@ -1,13 +1,6 @@
 <script type="ts">
 
 	import MainContent from './components/MainContent.svelte';
-	import ImageRow from './components/ImageRow.svelte';
-	import Headshot from './components/Headshot.svelte';
-	import Header from './components/Header.svelte';
-	import {links} from '$lib/links'
-
-
-
 
 </script>
 
@@ -16,7 +9,7 @@
 
 
 	<div class="main-content">
-<MainContent links={links} />
+<MainContent />
 </div>
 
 
