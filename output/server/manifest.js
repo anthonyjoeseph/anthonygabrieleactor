@@ -1,6 +1,6 @@
 export const manifest = {
 	appDir: "_app",
-	assets: new Set(["cumshot.png","favicon.png","images/GM0A2507.jpg","images/GM0A2642.jpg","images/headshots/headshot1.jpg","images/headshots/headshot2.jpg","images/resume.pdf","robots.txt","svelte-welcome.png","svelte-welcome.webp"]),
+	assets: new Set(["favicon.png","images/GM0A2507.jpg","images/GM0A2642.jpg","images/headshots/headshot1.jpg","images/headshots/headshot2.jpg","images/resume.pdf","robots.txt","svelte-welcome.png","svelte-welcome.webp"]),
 	mimeTypes: {".png":"image/png",".jpg":"image/jpeg",".pdf":"application/pdf",".txt":"text/plain",".webp":"image/webp"},
 	_: {
 		entry: {"file":"start-47ebe5da.js","js":["start-47ebe5da.js","chunks/index-3441f1d6.js"],"css":[]},

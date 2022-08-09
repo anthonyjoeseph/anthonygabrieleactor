@@ -6,8 +6,5 @@
 	<slot />
 </main>
 
-
 <style>
-
-
 </style>
