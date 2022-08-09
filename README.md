@@ -1,38 +1,19 @@
-# create-svelte
+# TODO
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Film
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm init svelte
-
-# create a new project in my-app
-npm init svelte my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- My reel - https://www.youtube.com/watch?v=HkWQp_y0ccU
+  - Every lunch date - https://vimeo.com/manage/videos/240611489
+- Tap dance video - https://youtu.be/EvsgloHCWUk
+- Gofundme videos (Toxic) - https://youtu.be/blXqF4Qr9rU
+- Forget Me Not - https://vimeo.com/180945429
+  - Acted
+  - Co-Wrote
+- Moving Guys - https://vimeo.com/180945431
+  - Co-Directed
+  - Co-Wrote
+- Henchmen - https://vimeo.com/180945430
+  - Directed
+  - Co-Wrote
+- Mime (on PBS!) https://www.pbs.org/video/late-fringe-late-finge-episode-four/?fbclid=IwAR31PIn4ENConOkhu81hfo9ObNAWFXRQmkypls_KR3T5D_Vx-oPca1FINH0
+  - Directed
