@@ -32,11 +32,11 @@
 		line-height: 1.1;
 	}
 	.hide {
-    display: none !important;
-  }
+		display: none !important;
+	}
 	.separator {
-    display: none;
-  }
+		display: none;
+	}
 	.top {
 		display: flex;
 		align-items: baseline;
