@@ -8,7 +8,7 @@
 		<div>
 			<img class="hero-img" src="images/About-Me.jpg" alt="airport" />
 		</div>
-		<div style="margin-left: 50px;">
+		<div class="bio-text">
 			<p>Anthony (he/him) is a brooklyn based actor, writer and musician.</p>
 			<p>
 				He has conservatory training from
@@ -77,6 +77,9 @@
 		}
 		.bio {
 			flex-direction: row;
+		}
+		.bio-text {
+			margin-left: 50px;
 		}
 	}
 </style>
