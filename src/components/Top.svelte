@@ -1,7 +1,10 @@
 <script>
+	export let showHome = false;
 	export const links = {
-		reel: "https://www.youtube.com/watch?v=HkWQp_y0ccU",
-		resume: "/images/resume.pdf",
+		reel: 'https://www.youtube.com/watch?v=HkWQp_y0ccU',
+		resume: '/images/resume.pdf',
+		home: '/',
+		about: '/about'
 	};
 </script>
 
@@ -10,17 +13,26 @@
 		<h1 style="float:left;">Anthony Gabriele</h1>
 	</div>
 	<span id="links">
+		<a class:hide={!showHome} href={links.home} class="link">home</a>
+		<a class:hide={showHome} href={links.about} class="link">about</a>
+		<b class="separator">&vert;</b>
 		<a href={links.resume} class="link">resume</a>
-		<b>&vert;</b>
+		<b class="separator">&vert;</b>
 		<a href={links.reel} class="link">reel</a>
-		<b>&vert;</b>
-		<a href="tel:6317430728" class="link">phone</a>
-		<b>&vert;</b>
+		<b class="separator">&vert;</b>
+		<a href="tel:9174267027" class="link">phone</a>
+		<b class="separator">&vert;</b>
 		<a href="mailto:anthony@anthonygabrieleactor.com" class="link">email</a>
 	</span>
 </div>
 
 <style>
+	.hide {
+    display: none !important;
+  }
+	.separator {
+    display: none;
+  }
 	.top {
 		display: flex;
 		align-items: baseline;
@@ -32,6 +44,10 @@
 		padding: 20px;
 	}
 
+	#links {
+		margin-left: 40px;
+	}
+
 	#links b {
 		color: gainsboro;
 	}
@@ -41,12 +57,21 @@
 	}
 
 	#links a:hover {
-		color:rgb(100, 100, 100)
+		color: rgb(100, 100, 100);
 	}
 
 	.name {
 		display: flex;
 		align-items: baseline;
 		flex-direction: row;
+	}
+
+	@media (min-width: 640px) {
+		.separator {
+			display: inline !important;
+		}
+		main {
+			max-width: none;
+		}
 	}
 </style>
