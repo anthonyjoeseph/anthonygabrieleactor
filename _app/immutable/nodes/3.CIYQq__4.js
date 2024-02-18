@@ -1,0 +1,9 @@
+import{s as u,e as l,b as f,d as p,f as _,j as v,p as g,i as c,q as m,k as w,l as d,n as b}from"../chunks/scheduler.Cmz7dM4v.js";import{S as y,i as k,c as $,b as H,m as x,t as M,a as T,d as q}from"../chunks/index.D5kUCA4c.js";import{T as A}from"../chunks/Top.CsIzS_-d.js";function N(h){let e,a,o,s,i=`<div><img class="hero-img svelte-15d8t6u" src="images/About-Me.jpg" alt="airport"/></div> <div class="bio-text svelte-15d8t6u"><p>Anthony (he/him) is a brooklyn based actor, writer and musician.</p> <p>He has conservatory training from
+				<a href="https://www.thestudionewyork.com/" target="_blank">The Studio/NY</a>
+				under Jayd McCarty.</p> <p>In 2021 performed and co-wrote a solo show about a nurse he met in the hospital (video
+				available upon request)</p> <p>He grew up in western New York. His favorite apple is
+				<a href="https://www.applesfromny.com/varieties/empire/" target="_blank">Empire</a>
+				.</p> <p>He is an advocate for public schools and educational equity.
+				<a href="https://steinhardt.nyu.edu/metrocenter/perspectives" target="_blank">Resources</a>
+				,
+				<a href="https://www.goodreads.com/list/show/155801.Nice_White_Parents_A_Reading_List" target="_blank">Reading list</a></p></div>`,r;return a=new A({props:{showHome:!0}}),{c(){e=l("main"),$(a.$$.fragment),o=f(),s=l("div"),s.innerHTML=i,this.h()},l(t){e=p(t,"MAIN",{class:!0});var n=_(e);H(a.$$.fragment,n),o=v(n),s=p(n,"DIV",{class:!0,"data-svelte-h":!0}),g(s)!=="svelte-11hntgi"&&(s.innerHTML=i),n.forEach(c),this.h()},h(){m(s,"class","bio svelte-15d8t6u"),m(e,"class","svelte-15d8t6u")},m(t,n){w(t,e,n),x(a,e,null),d(e,o),d(e,s),r=!0},p:b,i(t){r||(M(a.$$.fragment,t),r=!0)},o(t){T(a.$$.fragment,t),r=!1},d(t){t&&c(e),q(a)}}}class R extends y{constructor(e){super(),k(this,e,null,N,u,{})}}export{R as component};
