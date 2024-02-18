@@ -27,6 +27,10 @@
 </div>
 
 <style>
+	h1 {
+		font-size: 3.2em;
+		line-height: 1.1;
+	}
 	.hide {
     display: none !important;
   }
@@ -41,7 +45,8 @@
 	}
 
 	.link {
-		padding: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 
 	#links {
@@ -66,7 +71,7 @@
 		flex-direction: row;
 	}
 
-	@media (min-width: 640px) {
+	@media (min-width: 700px) {
 		.separator {
 			display: inline !important;
 		}
