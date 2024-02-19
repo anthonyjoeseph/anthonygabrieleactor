@@ -16,7 +16,7 @@
 				under Jayd McCarty.
 			</p>
 			<p>
-				In 2021 performed and co-wrote a solo show about a nurse he met in the hospital (video
+				In 2021, he performed and co-wrote a solo show about a nurse he met in the hospital (video
 				available upon request)
 			</p>
 			<p>
@@ -24,7 +24,7 @@
 				<a href="https://www.applesfromny.com/varieties/empire/" target="_blank">Empire.</a>
 			</p>
 			<p>
-				He is an advocate for public schools and educational equity.
+				Gabriele is an advocate for public schools and educational equity.
 				<a href="https://steinhardt.nyu.edu/metrocenter/perspectives" target="_blank">
 					Resources
 				</a>
