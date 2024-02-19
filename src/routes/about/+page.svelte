@@ -9,7 +9,7 @@
 			<img class="hero-img" src="images/About-Me.jpg" alt="airport" />
 		</div>
 		<div class="bio-text">
-			<p>Anthony (he/him) is a brooklyn based actor, writer and musician.</p>
+			<p>Anthony (he/him) is a Brooklyn-based actor, writer and musician.</p>
 			<p>
 				He has conservatory training from
 				<a href="https://www.thestudionewyork.com/" target="_blank"> The Studio/NY </a>
@@ -20,9 +20,8 @@
 				available upon request)
 			</p>
 			<p>
-				He grew up in western New York. His favorite apple is
-				<a href="https://www.applesfromny.com/varieties/empire/" target="_blank"> Empire </a>
-				.
+				He grew up in Western New York. His favorite apple is
+				<a href="https://www.applesfromny.com/varieties/empire/" target="_blank">Empire.</a>
 			</p>
 			<p>
 				He is an advocate for public schools and educational equity.

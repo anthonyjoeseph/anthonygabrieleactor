@@ -19,6 +19,10 @@
 		<img src="images/11.jpeg" alt="headshot" />
 		<img src="images/12.jpeg" alt="headshot" />
 	</Gallery>
+	<div>
+		photos courtesy of
+		<a href="https://headshots.shanihadjian.com/" target="_blank"> Shani Hadjian Photography </a>
+	</div>
 </main>
 
 <style>
