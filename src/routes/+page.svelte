@@ -3,6 +3,10 @@
 	import Gallery from 'svelte-image-gallery';
 </script>
 
+<svelte:head>
+	<title>Anthony Gabriele NYC Actor</title>
+</svelte:head>
+
 <main>
 	<Top />
 	<Gallery>

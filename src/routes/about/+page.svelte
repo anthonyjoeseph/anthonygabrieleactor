@@ -2,6 +2,10 @@
 	import Top from '../../components/Top.svelte';
 </script>
 
+<svelte:head>
+	<title>Anthony Gabriele NYC Actor - About</title>
+</svelte:head>
+
 <main>
 	<Top showHome={true} />
 	<div class="bio">

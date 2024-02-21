@@ -16,13 +16,15 @@
 		<a class:hide={!showHome} href={links.home} class="link">home</a>
 		<a class:hide={showHome} href={links.about} class="link">about</a>
 		<b class="separator">&vert;</b>
-		<a href={links.resume} class="link">resume</a>
+		<a href={links.resume} class="link" target="_blank">resume</a>
 		<b class="separator">&vert;</b>
-		<a href={links.reel} class="link">reel</a>
+		<a href={links.reel} class="link" target="_blank">reel</a>
 		<b class="separator">&vert;</b>
-		<a href="tel:9174267027" class="link">phone</a>
+		<a href="mailto:anthony@anthonygabrieleactor.com" class="link" target="_blank">email</a>
 		<b class="separator">&vert;</b>
-		<a href="mailto:anthony@anthonygabrieleactor.com" class="link">email</a>
+		<a href="https://instagram.com/tony.balo.nyc/" class="link" target="_blank"
+			><img src="images/ig_logo.png" alt="instagram logo" width="20" /></a
+		>
 	</span>
 </div>
 
@@ -74,9 +76,6 @@
 	@media (min-width: 700px) {
 		.separator {
 			display: inline !important;
-		}
-		main {
-			max-width: none;
 		}
 	}
 </style>
