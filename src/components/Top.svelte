@@ -10,7 +10,11 @@
 
 <div class="top">
 	<div class="name">
-		<h1 style="float:left;">Anthony Gabriele</h1>
+		<h1 class="name-text">Anthony Gabriele</h1>
+		<div class="sub-name">
+			<h3 style="margin-right: 20px">AEA</h3>
+			<img alt="CESD talent agency" src="/images/cesd_logo.png" height="50rem" />
+		</div>
 	</div>
 	<span id="links">
 		<a class:hide={!showHome} href={links.home} class="link">home</a>
@@ -30,8 +34,8 @@
 
 <style>
 	h1 {
-		font-size: 3.2em;
 		line-height: 1.1;
+		margin-bottom: 0px !important;
 	}
 	.hide {
 		display: none !important;
@@ -69,7 +73,14 @@
 
 	.name {
 		display: flex;
-		align-items: baseline;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.sub-name {
+		display: flex;
+		align-items: center;
 		flex-direction: row;
 	}
 
