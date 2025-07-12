@@ -1,7 +1,7 @@
 <script>
 	export let showHome = false;
 	export const links = {
-		reel: 'https://www.youtube.com/watch?v=HkWQp_y0ccU',
+		reel: 'https://youtube.com/watch?v=-asVqk2Mqzk',
 		resume: '/files/resume.pdf',
 		home: '/',
 		about: '/about'
