@@ -1,7 +1,7 @@
 <script>
 	export let showHome = false;
 	export const links = {
-		reel: 'https://youtube.com/watch?v=-asVqk2Mqzk',
+		reel: 'https://www.youtube.com/watch?v=4WIIsY1KPvA',
 		resume: '/files/resume.pdf',
 		home: '/',
 		about: '/about'
@@ -26,6 +26,10 @@
 		<b class="separator">&vert;</b>
 		<a href="mailto:anthony@anthonygabrieleactor.com" class="link" target="_blank">email</a>
 		<b class="separator">&vert;</b>
+		<a href="https://resumes.actorsaccess.com/anthonygabriele" class="link" target="_blank"
+			><img src="images/actorsaccess-logo.svg" alt="actors access logo" width="50" /></a
+		>
+		<b class="separator">&vert;</b>
 		<a href="https://instagram.com/tony.balo.nyc/" class="link" target="_blank"
 			><img src="images/ig_logo.png" alt="instagram logo" width="20" /></a
 		>
@@ -45,6 +49,7 @@
 	}
 	.top {
 		display: flex;
+		flex-direction: row;
 		align-items: baseline;
 		justify-content: space-around;
 		padding-bottom: 20px;
@@ -56,6 +61,8 @@
 	}
 
 	#links {
+		display: flex;
+		flex-direction: row;
 		margin-left: 40px;
 	}
 
